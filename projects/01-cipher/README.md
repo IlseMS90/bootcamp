@@ -15,3 +15,19 @@
 ***
 
 ## Inicio de Proyecto 
+
+PROYECTO CYPEHER
+
+Misión: Soberanía 02020-9005
+        Juego de Enigma 
+
+Quiénes son los principales usuarios de producto.
+  Mujeres, Hombres y NB de 17 a  35 años.
+  Estudiantes y profesinoales
+
+Cuáles son los objetivos de estos usuarios en relación con tu producto.
+  Entretenimiento
+  Ejercicio mental
+
+Cómo crees que el producto que estás creando está resolviendo sus problemas.
+  En tiempos de pandemia muchos lugares de entretenimiento se encuentran cerrados. Éste juego es un pasatiempo que se puede realizar en casa y que pretende darle un ejercicio  de emoción y  destreza a los usuarios.  
