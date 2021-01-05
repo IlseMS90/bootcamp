@@ -1,23 +1,327 @@
-#intro{
-    color: greenyellow;
-    font-family: 'Courier New', Courier, monospace;
-  }
 
 #container{
-    margin : 20px auto;
-    background-color: black;
-    height: 550px;
-    width : 800px;
-    border-radius: 5px;
-    box-shadow: 0px 5px 15px 0px;
-    position: relative;
+  margin : 20px;
+  background-color: rgb(0, 0, 0);
+  height: 500px;
+  width : 1000px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px 0px rgb(98, 197, 6);
+  position: absolute;
+  padding: 40px;
+}
 
+#intro{
+  margin : 40px;
+  color: greenyellow;
+  font-family: 'Courier New', Courier, monospace;
+  position: relative;
+  padding: 10px;
+}
+
+
+body{
+background: rgb(0, 0, 0);
+background-size: auto;
+}   
+
+
+#start{
+  background:rgb(7, 7, 7);
+  color: rgb(98, 197, 6);
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  width: 80px;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding: 3px;
+  text-align: center;
+  cursor: pointer;
+  border : 2px solid rgb(98, 197, 6);
+  position: relative;
+  left:910px;
+  top:460px;
+
+}
+
+#start:hover{
+  border: 3px solid rgb(255, 3, 3);
+  color : rgb(255, 3, 3);
+}
+
+#instructions{
+background:rgb(0, 0, 0);
+width: 50px;
+height: 50px;
+border : 2px solid rgb(0, 0, 0);
+position: absolute;
+right:-50px;
+top:300px;
+
+}
+
+#instructions:hover{
+border: 3px solid rgb(255, 3, 3);
+color : rgb(255, 3, 3);
+background: rgb(255, 3, 3);
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 80%;
+  font: normal bold 16px/normal tahoma;
+}
+
+article {
+  width: 200px;
+  top: 15px;
+  right: 12px;
+  text-align: center;
+  background-color: #0c0c0c;
+  border-radius: 1px;
+  padding: 0px;
+  overflow: hidden;
+  box-shadow: 3px 8px 17px 3px red ;
+  position: absolute;
+  
+}
+
+article h3 {
+  padding: 5px;
+  color: rgb(207, 11, 11);
+}
+article .count {
+  padding: 0px;
+}
+article #timer{
+  padding: 1px;
+  color:  rgb(207, 11, 11);
+  background-color: #0c0c0c;
+  border-radius: 1px;
+  font-size: 35px;
+}
+
+#buttonform{
+  display: none;
+}
+
+.face{
+  max-height: 150px;
+  max-width: 200px;
+  width: 70px;
+  height: 70px;
+  box-shadow: 0px 5px 15px 0px blue;
+  left: 10px;
+  top: 10px;
+  position: relative;
+}
+
+#str{
+  left:395px;
+  top:320px;  
+  color: purple;
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  width: 250px;
+  text-align: center;
+  font: normal bold 20px/normal tahoma;
+  text-transform: uppercase;
+  user-select: purple;
+  outline-color: purple;
+  outline-style: purple;
+  text-transform: uppercase;
+
+}
+
+#strtext{
+  color: red;
+  font-size: 30px;
+  position: absolute;
+  left:445px;
+}
+
+#musicc{
+  position: relative;
+  top: -170px;
+  right: -770px;
+  transform: rotate(-90deg);
+}
+
+audio::-webkit-media-controls-panel {
+background: #260796;
+opacity: .9;
+
+} 
+
+
+#decodepage{
+  position: absolute;
+  background-color: white;
+  top: 30px;
+  height: 800px;
+  width : 900px;
+  margin: 20px;
+
+}
+
+
+.logos{
+  max-height: 200px;
+  max-width: 200px;
+  right: 50px;
+  top: 30px;
+  position: absolute;
+
+}
+
+.logo2{
+  max-height: 110px;
+  max-width: 150px;
+  left: 20px;
+  top: 20px;
+  position: absolute;
+  
+}
+
+.logo3{
+  max-height: 98px;
+  max-width: 145px;
+  right: 267px;
+  top: 30px;
+  position: absolute;
+  filter: grayscale();
+  opacity: .7;
+  transform: rotate(145deg);
+  
+}
+
+h4{
+  margin: 90px;
+  position: relative;
+
+}
+
+.classified{
+  opacity: .3;
+  top: 250px;
+  position: absolute;
+  width: 400px;
+  right: 250px;
+  transform: rotate(-20deg);
+}
+
+
+.answerBoxes{
+  position: absolute;
+  right: -300px;
+  top: 90px;
+  max-width: 1000pxlen;
+  background-color: rgb(19, 18, 18);
+  box-shadow: 0px 5px 15px 0px rgb(98, 197, 6);
+  height: 200px;
+  width : 250px;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  font-size: 12px;
+}
+
+
+#buttonFiles{
+  position: absolute;
+  right: 9px;
+  top: 155px;
+  background-color:rgb(98, 197, 6);
+  color:rgb(98, 197, 6); ;
+}
+
+.private{
+  top: -42px;
+  position: absolute;
+  right: 1px;
+  
+}
+
+.seven{
+  position: absolute;
+  top: 755px;
+  left: 830px;
+}
+
+
+
+#hiddenbutton{
+  position: absolute;
+  background: rgb(0, 0, 0);
+  width: 70px;
+  height: 70px;
+  border : 5px solid rgb(0, 0, 0);
+  top: 900px;
+  left:20px;
+}
+
+#hiddenbutton:hover{
+border: 5px solid rgb(255, 3, 3);
+color : rgb(255, 3, 3);
+background: rgb(255, 3, 3);
+}
+
+
+
+#str2{
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px 0px rgb(98, 197, 6);  
+  position: absolute;  
+  left:150px;  
+  width: 1150px;
+  height: 250px;
+  border: 3px black;
+  background-color: white;
+  top: 900px;
+  overflow: hidden;
+}
+  
+#output2{
+  position: absolute;
+  background-color: rgb(0, 0, 0);  
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px 0px rgb(98, 197, 6);
+  width: 1150px;
+  height: 400px;
+  left: 145px;
+  top: 1250px;
+  border: 3px black;
+  color: greenyellow;
+  white-space: pre;
+  pointer-events: visible;
+  padding:20px;
+  cursor: text;
+  user-select: text;
   }
 
-#button{
-    position:absolute;
-    top: 520px;
-    right:300px;
-  } 
+#offset2{
+  position: absolute;
+  left:1150px;
+  top:1110px;  
+  color: rgb(0, 0, 0);
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 20px;
+  }
 
-
+  .decodeButton{
+  width: 90px;
+  height:30px;
+  top:1110px;
+  position: absolute;
+  left:1200px;
+  background-color: black;
+  border: none;
+   
+  }
